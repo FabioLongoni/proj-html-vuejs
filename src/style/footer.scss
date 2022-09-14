@@ -1,0 +1,18 @@
+.main__footer {
+  width: 100%;
+  min-height: 600px;
+  overflow: hidden;
+}
+
+.footer__link {
+  flex-basis: 50%;
+  align-items: flex-start;
+  gap: 3rem;
+}
+.img__footer {
+  width: 50%;
+  height: 600px;
+  background-image: url(../assets/img/footer-img-1.jpg);
+  background-position: center;
+  background-size: cover;
+}
