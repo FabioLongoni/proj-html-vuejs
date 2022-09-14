@@ -1,0 +1,38 @@
+.main__header {
+  background-color: black;
+  padding: 2rem 0 4rem;
+}
+
+.header__component {
+  justify-content: center;
+  gap: 5rem;
+  text-transform: uppercase;
+  color: $color-white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.header__logo {
+  width: 150px;
+}
+
+.main__nav {
+  gap: 2rem;
+}
+
+.ul__search__nav {
+  gap: 2rem;
+}
+
+.header__jumbotron {
+  padding-top: 0.75rem;
+  text-align: center;
+  background-image: url(../assets/img/h3-rev-img-5.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  img {
+    width: 250px;
+  }
+}
+
