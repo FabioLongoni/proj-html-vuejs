@@ -52,7 +52,10 @@ export default {
     padding: 0.5rem 0;
     .slogan__slides {
       gap: 0.5rem;
-      padding-bottom: 0.5rem
+      padding-bottom: 0.5rem;
+      a {
+        display: inline-flex;
+      }
     }
   }
   .slogan__text__content {
@@ -62,7 +65,7 @@ export default {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
-    padding: 5rem 0;
+    padding: 6rem 0;
     .cit {
       font-size: 25px; 
       color: #303030;   
@@ -84,9 +87,16 @@ export default {
     .circle {
       color: #e4e4d4;
       padding: 0 0.2rem;
+      font-size: 10px;
     }
     .circle:hover {
       color: #b7903c;
     }
+  }
+  .slogan__text {
+      background-image: url(../assets/img/h3-testimonials-bckgrnd.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
   }
 </style>
