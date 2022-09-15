@@ -11,6 +11,7 @@ import HeaderComponent from './components/HeaderComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
 import MainComponent from './components/MainComponent.vue';
 import "@fontsource/oswald";
+import "@fontsource/oswald/500.css"
 
 
 

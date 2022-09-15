@@ -7,7 +7,7 @@
       <div>
         <ul class="flex a__center main__nav">
           <li>
-            <a href="#">home</a>
+            <a class="flex a__center active" href="#"><img class="act" src="../assets/svg/svg-0.svg" alt="">home</a>
           </li>
           <li>
             <a href="#">pages</a>
@@ -30,9 +30,9 @@
         </ul>
       </div>
       <div class="search__nav">
-        <ul class="flex ul__search__nav">
+        <ul class="flex ul__search__nav a__center">
           <li>
-            <a href="#">cart</a>
+            <a class="cart flex a__center" href="#"><img src="../assets/svg/svg-1.svg" alt=""> cart</a>
           </li>
           <li>
             <a href="#">search</a>

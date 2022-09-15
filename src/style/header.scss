@@ -28,6 +28,12 @@
 
 .ul__search__nav {
   gap: 2rem;
+  .cart {
+    gap: 0.5rem;
+    img {
+      filter: invert(1);
+    }
+  }
 }
 
 .header__jumbotron {
@@ -41,4 +47,10 @@
     width: 250px;
   }
 }
-
+.act {
+  width: 25px;
+  filter: invert(1);
+}
+.active {
+  gap: 0.5rem;
+}
