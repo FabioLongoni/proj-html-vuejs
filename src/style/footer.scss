@@ -1,6 +1,5 @@
 .main__footer {
   width: 100%;
-  min-height: 600px;
   overflow: hidden;
   color: #8f8f8f;
 }
@@ -12,7 +11,6 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 2rem;
-  height: 600px;
 }
 
 .footer__link { 
@@ -21,7 +19,6 @@
 }
 .img__footer {
   width: 50%;
-  height: 600px;
   background-image: url(../assets/img/footer-img-1.jpg);
   background-position: center;
   background-size: cover;
@@ -75,5 +72,6 @@ h3 {
 .copy {
   justify-content: space-between;
   align-items: flex-end;
+  padding-top: 4rem;
 }
 
