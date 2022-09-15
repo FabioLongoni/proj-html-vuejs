@@ -1,7 +1,9 @@
 .main__header {
-  background-color: black;
+  background-image: url(../assets/img/star.jpg);
+  background-size: cover;
   padding: 2rem 0 4rem;
   position: relative;
+  font-family: "Oswald", sans-serif;
 }
 
 .header__component {
@@ -11,6 +13,9 @@
   color: $color-white;
   font-weight: bold;
   font-size: 12px;
+  a {
+    letter-spacing: 0.2rem;
+  }
 }
 
 .header__logo {

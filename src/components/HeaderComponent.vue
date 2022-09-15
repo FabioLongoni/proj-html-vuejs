@@ -1,11 +1,11 @@
 <template>
   <div class="main__header">
-    <div class="header__component flex">
+    <div class="header__component flex a__center">
       <div>
         <button class="btn">order online</button>
       </div>
       <div>
-        <ul class="flex main__nav">
+        <ul class="flex a__center main__nav">
           <li>
             <a href="#">home</a>
           </li>

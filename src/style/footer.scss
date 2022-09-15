@@ -2,12 +2,21 @@
   width: 100%;
   min-height: 600px;
   overflow: hidden;
+  color: #8f8f8f;
 }
 
-.footer__link {
+.footer__left {
   flex-basis: 50%;
+  background-image: url(../assets/img/star.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2rem;
+}
+
+.footer__link { 
   align-items: flex-start;
-  gap: 3rem;
+  gap: 2rem; 
 }
 .img__footer {
   width: 50%;
@@ -16,3 +25,55 @@
   background-position: center;
   background-size: cover;
 }
+
+.our__restaurant {
+  width: 33%;
+  li {
+    padding-top: 1.2rem;
+    line-height: 24px;
+  }
+}
+
+.working__hours {
+  li {
+    padding-top: 1.2rem;
+    line-height: 24px;
+    .day {
+      color: #b79036;
+      font-family: "Oswald", sans-serif;
+    }
+  }
+  .social {
+    padding-top: 3rem;
+    
+  }
+  .follow {
+    color: #b79036;
+    font-family: "Oswald", sans-serif;
+  }
+}
+
+.footer__text {
+  width: 33%;
+  font-size: 24px;
+  color:white;
+  font-family: "Oswald", sans-serif;
+}
+
+h3 {
+  color: #b79036;
+  font-family: "Oswald", sans-serif;
+}
+.heart {
+  color: #b79036;
+}
+.logo__nat {
+  width: 50px;
+}
+
+.copy {
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 5rem;
+}
+
