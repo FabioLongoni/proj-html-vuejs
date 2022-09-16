@@ -74,7 +74,7 @@ export default {
 .partners {
   background-color: #f7f7f2;
   justify-content: center;
-  gap:rem;
+  padding: 3rem 0;
   a {
     display: inline-flex;
     img {
