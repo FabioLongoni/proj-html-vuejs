@@ -94,6 +94,7 @@ export default {
 
   .pizze {
     padding-top: 3rem;
+    overflow: hidden;
     .pizza__card {
       text-align: center;
       img {

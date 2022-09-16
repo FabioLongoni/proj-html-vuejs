@@ -1,6 +1,4 @@
 .main__footer {
-  width: 100%;
-  overflow: hidden;
   color: #8f8f8f;
 }
 
@@ -10,7 +8,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 2rem;
+  padding: 6rem 2.5rem 4rem 2.5rem;
 }
 
 .footer__link { 
@@ -28,39 +26,38 @@
   width: 33%;
   li {
     padding-top: 1.2rem;
-    line-height: 24px;
+    line-height: 1.6em;
   }
 }
 
 .working__hours {
   li {
     padding-top: 1.2rem;
-    line-height: 24px;
+    line-height: 1.6em;
     .day {
       color: #b79036;
-      font-family: "Oswald", sans-serif;
     }
   }
   .social {
     padding-top: 3rem;
+    gap: 0.5rem;
     
   }
   .follow {
     color: #b79036;
-    font-family: "Oswald", sans-serif;
   }
 }
 
 .footer__text {
   width: 33%;
-  font-size: 24px;
+  font-size: 25px;
+  line-height: 37px;
   color:white;
-  font-family: "Oswald", sans-serif;
+  letter-spacing: .02em;
 }
 
 h3 {
   color: #b79036;
-  font-family: "Oswald", sans-serif;
 }
 .heart {
   color: #b79036;
@@ -73,5 +70,12 @@ h3 {
   justify-content: space-between;
   align-items: flex-end;
   padding-top: 4rem;
+  font-size: 12px;
 }
-
+.closed {
+  color: #d2401e;
+}
+.icons {
+  gap: 0.5rem;
+  color: white;
+}

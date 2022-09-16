@@ -29,28 +29,33 @@
           <ul class="working__hours">
             <h3 class="text__up">working hours</h3>
             <li>
-              <p class="day text__up bold day">monday</p>
-              <p class="hours">Kitchen Closed</p>
+              <p class="day text__up font__500 font__o day">monday</p>
+              <p class="hours closed">Kitchen Closed</p>
             </li>
             <li>
-              <p class="day text__up bold day">tuesday until friday</p>
+              <p class="day text__up font__500 font__o day">tuesday until friday</p>
               <p class="hours">9.00 - 22.00</p>
             </li>
             <li>
-              <p class="day text__up bold day">saturday</p>
+              <p class="day text__up font__500 font__o day">saturday</p>
               <p class="hours">Saturday 11am to midnight</p>
             </li>
             <li>
-              <p class="day text__up bold day">sunday</p>
+              <p class="day text__up font__500 font__o day">sunday</p>
               <p class="hours">9.00 - 22.00</p>
             </li>
             <div class="social flex a__center">
-              <p class="text__up bold follow">follow us:</p>
-              <a href="#"></a>
+              <p class="text__up font__500 font__o follow">follow us:</p>
+              <a href="#" class="flex icons">
+                <font-awesome-icon icon="fa-brands fa-twitter" />
+                <font-awesome-icon icon="fa-brands fa-facebook-f" />
+                <font-awesome-icon icon="fa-brands fa-instagram" />
+                <font-awesome-icon icon="fa-brands fa-linkedin-in" />
+              </a>
             </div>
           </ul>
         </div>  
-        <p class="text__up bold footer__text">the don peppe crew first and foremost values an authentic, well baked pizza</p>
+        <p class="text__up font__o font__500 footer__text">the don peppe crew first and foremost values an authentic, well baked pizza</p>
       </div>
       <div class="flex copy">
         <div class="created">
@@ -71,7 +76,7 @@
 
 <script>
 export default {
-
+  
 }
 </script>
 

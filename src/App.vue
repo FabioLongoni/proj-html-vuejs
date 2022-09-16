@@ -3,6 +3,7 @@
     <HeaderComponent/>
     <MainComponent/>
     <FooterComponent/>
+    <FormComponent />
   </div>
 </template>
 
@@ -10,9 +11,11 @@
 import HeaderComponent from './components/HeaderComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
 import MainComponent from './components/MainComponent.vue';
+import FormComponent from './components/FormComponent.vue';
 import "@fontsource/oswald";
 import "@fontsource/oswald/500.css";
 import "@fontsource/open-sans";
+
 
 
 
@@ -21,8 +24,9 @@ export default {
   components: {
     HeaderComponent,
     FooterComponent,
-    MainComponent
-  }
+    MainComponent,
+    FormComponent
+}
 }
 </script>
 
