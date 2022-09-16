@@ -24,7 +24,7 @@ export default {
   .jumbotron {
     background-image: url(../assets/img/h3-background-img.jpg);
     margin-bottom: 0.5rem;
-    background-size: 1150px 320px;
+    background-size: 1100px 320px;
     background-repeat: repeat;
     background-position: center;
     .container {
