@@ -2,8 +2,9 @@
   <div id="app">
     <HeaderComponent/>
     <MainComponent/>
-    <FooterComponent/>
     <FormComponent />
+    <FooterComponent/>
+    
   </div>
 </template>
 
