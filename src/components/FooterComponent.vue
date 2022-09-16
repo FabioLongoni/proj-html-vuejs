@@ -61,7 +61,7 @@
         <div class="created">
           <span class="heart">Created with &hearts;.by</span> <span>Qode Interactive</span>
         </div>
-        <img class="logo__nat" src="https://w7.pngwing.com/pngs/622/453/png-transparent-100-natural-thumbnail.png" alt="">
+        <img class="logo__nat" src="../assets/img/h5-logo-divided-header-dark.png" alt="">
       </div>
       
     </div>

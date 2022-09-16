@@ -97,6 +97,8 @@ export default {
     overflow: hidden;
     .pizza__card {
       text-align: center;
+      flex-basis: 0;
+      flex-grow: 1;
       img {
         width: 180px;
       }

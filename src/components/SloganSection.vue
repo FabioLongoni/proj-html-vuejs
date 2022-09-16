@@ -55,6 +55,8 @@ export default {
       padding-bottom: 0.5rem;
       a {
         display: inline-flex;
+        flex-grow: 1;
+        flex-basis: 0;
       }
     }
   }
