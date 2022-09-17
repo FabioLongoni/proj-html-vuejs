@@ -2,11 +2,11 @@
   <div class="form__wrapper">
     <form class="form flex">
       <div class="input flex a__center">
-        <input type="number" value="1 Person">
+        <input type="number" min="1" max="10">
         <span class="font__o text__up font__500">for</span>
         <input type="date" value="today" />
         <span class="font__o text__up font__500">at</span>
-        <input type="time" value="8.00">
+        <input type="time" value="20:00">
       </div>
       <button id="book" class="btn">book a table</button>
     </form>

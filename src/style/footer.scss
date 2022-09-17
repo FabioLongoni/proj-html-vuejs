@@ -27,6 +27,10 @@
   li {
     padding-top: 1.2rem;
     line-height: 1.6em;
+    cursor: pointer;
+    p:hover {
+      color: #b7903c;
+    }
   }
 }
 
@@ -77,4 +81,7 @@ h3 {
 .icons {
   gap: 0.5rem;
   color: white;
+  .icon:hover {
+    color: #b79036;
+  }
 }

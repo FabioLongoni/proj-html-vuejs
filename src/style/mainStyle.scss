@@ -37,6 +37,11 @@ img {
   background-color: #d2401e;
   font-family: "Oswald" , sans-serif;
   border: none;
+  cursor: pointer;
+  transition: background-color 1s ease-out;
+}
+.btn:hover {
+  background-color: #bd3719;
 }
 
 .text__up {

@@ -8,7 +8,7 @@
         delish pizza deals
       </h2>
       <ul class="event">
-        <li v-for="(event,i) in events" :key="i" class="flex ">
+        <li v-for="(event,i) in events" :key="i" class="flex ev">
           <div class="day__event">
             <div class="day font__o">{{ event.date }}</div>
             <div class="month font__o font__500 text__up">{{ event.month }}</div>
@@ -117,4 +117,9 @@ export default {
     color: #d2401e;
     font-size: 12px;
   }
+
+  .ev:last-child {
+    border-bottom: none !important;
+  }
+
 </style>

@@ -47,10 +47,10 @@
             <div class="social flex a__center">
               <p class="text__up font__500 font__o follow">follow us:</p>
               <a href="#" class="flex icons">
-                <font-awesome-icon icon="fa-brands fa-twitter" />
-                <font-awesome-icon icon="fa-brands fa-facebook-f" />
-                <font-awesome-icon icon="fa-brands fa-instagram" />
-                <font-awesome-icon icon="fa-brands fa-linkedin-in" />
+                <font-awesome-icon class="icon" icon="fa-brands fa-twitter" />
+                <font-awesome-icon class="icon" icon="fa-brands fa-facebook-f" />
+                <font-awesome-icon class="icon" icon="fa-brands fa-instagram" />
+                <font-awesome-icon class="icon" icon="fa-brands fa-linkedin-in" />
               </a>
             </div>
           </ul>
