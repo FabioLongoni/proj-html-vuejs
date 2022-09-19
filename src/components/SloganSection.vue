@@ -1,7 +1,9 @@
 <template>
   <div class="slogan__section">
     <div class="slogan__slides flex">
-      <a v-for="(slide,i) in slides" :key="i" href="slide.href"><img :src="slide.image" alt=""></a>
+      <a v-for="(slide,i) in slides" :key="i" href="slide.href"><img :src="slide.image" alt="">
+        <div class="on__hover"><font-awesome-icon icon="fa-regular fa-eye" /></div>
+      </a>
     </div>
     <div class="slogan__text">
       <div class="slogan__text__content">
@@ -57,6 +59,23 @@ export default {
         display: inline-flex;
         flex-grow: 1;
         flex-basis: 0;
+        position: relative;
+      }
+      a::after {
+        content: '';
+        position: absolute;
+        display :block;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+      a:hover::after {
+        background-image: url(https://us.123rf.com/450wm/wesley1357/wesley13571602/wesley1357160200005/53221896-semplice-polka-dot-sfondo.jpg?ver=6);
+      }
+      a:hover .on__hover {
+        display: block;
+        z-index: 1;
       }
     }
   }
@@ -100,5 +119,19 @@ export default {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
+  }
+
+  .on__hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+    padding:10px 12px;
+    border-radius: 50%;
+    background-color: red;
+    display: none;
+    z-index: 0;
   }
 </style>

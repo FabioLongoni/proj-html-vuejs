@@ -17,9 +17,10 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faEye } from '@fortawesome/free-regular-svg-icons'
 
 /* add icons to the library */
-library.add(faQuoteLeft,faQuoteRight,faCircle,faCircleRegular,faLocationDot,faTwitter,faFacebookF,faInstagram,faLinkedinIn)
+library.add(faQuoteLeft,faQuoteRight,faCircle,faCircleRegular,faLocationDot,faTwitter,faFacebookF,faInstagram,faLinkedinIn,faEye)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
